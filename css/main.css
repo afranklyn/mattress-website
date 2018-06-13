@@ -1,5 +1,9 @@
 * {
   border: 1px solid black;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 .banner {
@@ -54,7 +58,7 @@ h5.special-margin {
 }
 
 h6 {
-
+  font-size: 3rem;
 }
 
 p {
@@ -73,6 +77,22 @@ p {
 .quote p {
   font-size: 1.5rem;
   opacity: 0.25;
+}
+
+/* contact form */
+
+.contact-form {
+  background-color: #192B37;
+  min-height: 50vh;
+}
+
+.contact-form form * {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding: 12px 8px;
+  border-radius: 8px
 }
 
 /* text helpers */

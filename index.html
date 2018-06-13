@@ -9,7 +9,7 @@
   <!-- CSS --> <!-- normalize always first to reset-->
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/gridlex.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,700">
 
     <!-- All third party above this line -->
     <link rel="stylesheet" href="css/main.css">
@@ -56,16 +56,20 @@
     </section>
 
     <!-- contact form -->
-    <section class="grid">
+    <section class="grid-middle-center-noGutter-noBottom contact-form text-white">
       <div class="col-6">
-        <h6>let's <span class="text-yellow">connect</span></h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class=padding-left-right>
+          <h6 class="roboto-bold margin-top-bottom-none">let's <br> <span class="text-yellow">connect</span></h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
       </div>
-      <div class="col-6 grid">
-        <div class="col-12">your name</div>
-        <div class="col-12">your email</div>
-        <div class="col-12">tell us what you think</div>
-        <div class="col-12">submit</div>
+      <div class="col-6">
+        <form class="padding-left-right">
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your email">
+          <textarea placeholder="tell us how many mattresses you'd like"></textarea>
+          <button type="submit">hit me</button>
+        </form>
       </div>
 
   </body>
