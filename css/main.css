@@ -22,13 +22,20 @@
   min-height: 75vh;
 }
 
+.pencil {
+  min-height: 70vh;
+  background-image: url("../img/pencil.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 h1 {
   font-size: 2rem;
   margin: .5rem 0 0 0;
 }
 
 h2 {
-
+  font-size: 2rem;
 }
 
 h3 {
@@ -69,4 +76,18 @@ h6 {
 .roboto-bold {
   font-family:'Roboto', sans-serif;
   font-weight: 700;
+}
+
+/* spacing helpers */
+.padding-left {
+  padding-left: 5%;
+}
+
+.padding-right {
+  padding-right: 5%;
+}
+
+.padding-left-right {
+  padding-left: 5%;
+  padding-right: 5%;
 }
