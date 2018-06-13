@@ -8,9 +8,23 @@
   background-size: cover;
 }
 
+.dog {
+  background-image: url("../img/dog.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+}
+
+.bed {
+  background-image: url("../img/bed.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+}
+
 h1 {
   font-size: 2rem;
-  margin: .5rem 0 0 0; 
+  margin: .5rem 0 0 0;
 }
 
 h2 {
