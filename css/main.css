@@ -1,9 +1,10 @@
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   box-sizing: border-box;
 }
 body {
   font-family: 'Lato', sans-serif;
+  line-height:1.45;
 }
 
 .banner {
@@ -59,6 +60,7 @@ h5.special-margin {
 
 h6 {
   font-size: 3rem;
+  line-height: 1;
 }
 
 p {
@@ -92,7 +94,15 @@ p {
   margin-top: 10px;
   margin-bottom:10px;
   padding: 12px 8px;
-  border-radius: 8px
+  border-radius: 8px;
+  border-color: transparent;
+  font-size: 1.2rem;
+}
+
+.contact-form button {
+  background-color: #FFBE00;
+  border-color: #FFBE00;
+  color: white;
 }
 
 /* text helpers */
@@ -110,6 +120,10 @@ p {
 
 .text-yellow {
   color: #FFBE00;
+}
+
+.contact-form-yellow {
+  display: block;
 }
 
 /* font helpers */
