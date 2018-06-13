@@ -56,9 +56,32 @@ h5.special-margin {
 h6 {
 
 }
+
+p {
+  font-size: 1rem;
+}
+
+/* quote section */
+.quote {
+  min-height: 50vh;
+}
+
+.quote q {
+  font-size: 2rem;
+}
+
+.quote p {
+  font-size: 1.5rem;
+  opacity: 0.25;
+}
+
 /* text helpers */
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-white {
